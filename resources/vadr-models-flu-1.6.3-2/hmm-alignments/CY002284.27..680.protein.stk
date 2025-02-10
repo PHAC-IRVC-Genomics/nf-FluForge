@@ -1,0 +1,16 @@
+# STOCKHOLM 1.0
+
+Aseg8-prot1C.seg8prot1C/27..680:+         MDSNTVSSFQVDCFLWHIRKQVVDQELSDAPFLDRLRRDQRSLRGRGNTLGLDIKAATHVGKQIVEKILKGESDEALKMTMASTPASRYITDMTIEELSRNWFMLMPKQKVEGPLCIRMDQAIMEKNIMLKANFSVIFDRLETIVLLRAFTEEGAIVGEISPLPSFPGHTIEDVKNAIGVLIGGLEWNDNTVRVSKNLQR
+#=GR Aseg8-prot1C.seg8prot1C/27..680:+ PP 9*******************************************************************************************************************************************************************************************************
+KT370023.1:1..654:+/27..680:+             MDSNTVSSFQVDCFLWHVRKRFADQELGDAPFLDRLRRDQKSLRGRGSTLGLDIETATCAGKLIVERILEEESDEALKMTIASVPASRYITDMTLEEMSRDWFMLMPKQKVAGPLFIKMDQAIMDKNITLKANFSVIFNRLETLILLRAFTDEGAIVGEISPLPYFPGHTNEDVKNAIGVLIGGLEWNDNTVRVSETLQR
+#=GR KT370023.1:1..654:+/27..680:+     PP 9*******************************************************************************************************************************************************************************************************
+#=GC PP_cons                              9*******************************************************************************************************************************************************************************************************
+#=GC RF                                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+Aseg8-prot1C.seg8prot1C/27..680:+         FAWRSSNENGGPPLTPK....
+#=GR Aseg8-prot1C.seg8prot1C/27..680:+ PP ****************8....
+KT370023.1:1..654:+/27..680:+             FAWRSSNEDGRPS----fpse
+#=GR KT370023.1:1..654:+/27..680:+     PP **********996....5789
+#=GC PP_cons                              ***********98***8....
+#=GC RF                                   xxxxxxxxxxxxxxxxx....
+//

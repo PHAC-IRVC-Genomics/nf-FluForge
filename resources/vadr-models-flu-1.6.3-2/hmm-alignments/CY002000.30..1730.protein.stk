@@ -1,0 +1,35 @@
+# STOCKHOLM 1.0
+
+CY002000.1/30..1730:+                      MKTIIALSYILCLVFAQKlPGNDNS.TATLCLGHHAVPNGTIVKTITNDQIEVTNATELVQSSSTGGICDSPHQILDGENCTLIDALLGDPQCDGFQNKKWDLFVERSKAYSNCYPYDVPDYASLRSLVASSGTLEFNNESFNWTGVTQNGTSSACKRRSNNSFFSRLNWLTHLKFKYPALNVTMPNNEKFDKLYIWGVH
+#=GR CY002000.1/30..1730:+              PP 8999999999999*999759999**.******************************************************************************************************************************************************************************
+Aseg4-prot3A.seg4prot3A/30..1730:+         MKTIIVLSYLFCLALSQD.YSENNNsTATLCLGHHAVPNGTIVKTITDDQIEVTNATELVQSSSTGKICNNPHRILDGRDCTLIDALLGDPHCDVLQDETWDLYVERSSAFSNCYPYDVPDYASLRSLVASSGTLEFITEGFTWTGVTQNGGSNACKRGPASGFFSRLNWLTKSGSAYPVLNVTMPNNDNFDKLYVWGVH
+#=GR Aseg4-prot3A.seg4prot3A/30..1730:+ PP 89***************9.88766549*****************************************************************************************************************************************************************************
+Aseg4-protB.seg4protB/30..1730:+           MKTIIAFSYILCLIFAQKiPGSDNS.MATLCLGHHAVPNGTLVKTITDDQIEVTNATELVQSSSTGRICNSPHQILDGKNCTLIDALLGDPHCDDFQNKEWDLFVERSTAYSNCYPYDVPDYASLRSLVASSGTLEFTQESFNWTGVAQDGTSSACKRGSVKSFFSRLNWLHELGYKYPALNVTMPNNDKFDKLYIWGVH
+#=GR Aseg4-protB.seg4protB/30..1730:+   PP 788888888888888886599****.******************************************************************************************************************************************************************************
+Aseg4-protC.seg4protC/30..1730:+           MKTTIILILLTHWVYSQN.PTSGNN.TATLCLGHHAVANGTLVKTITDDQIEVTNATELVQSISIGKICNNSYRVLDGRNCTLIDAMLGDPHCDVFQYENWDLFIERSSAFSNCYPYDIPDYASLRSIVASSGTLEFTAEGFTWTGVTQNGRSGACKRGSADSFFSRLNWLTKSGNSYPTLNVTMPNNKNFDKLYIWGIH
+#=GR Aseg4-protC.seg4protC/30..1730:+   PP 9*****************.******.******************************************************************************************************************************************************************************
+#=GC PP_cons                               899999999999999998.999999.******************************************************************************************************************************************************************************
+#=GC RF                                    xxxxxxxxxxxxxxxxxx.xxxxxx.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+CY002000.1/30..1730:+                      HPGTDNDQISLYAQASGRITVSTKRSQQTVIPNIGSRPRVRDIPSRISIYWTIVKPGDILLINSTGNLIAPRGYFKIRSGKSSIMRSDAPIGKCNSECITPNGSIPNDKPFQNVNRITYGACPRYVKQNTLKLATGMRNVPEKQTRGIFGAIAGFIENGWEGMVDGWYGFRHQNSEGIGQAADLKSTQAAINQINGKLNR
+#=GR CY002000.1/30..1730:+              PP ********************************************************************************************************************************************************************************************************
+Aseg4-prot3A.seg4prot3A/30..1730:+         HPSTNQEQTNLYVQASGRVTVSTRRSQQTIIPNIGSRPWVRGQSGRISIYWTIVKPGDVLVINSNGNLIAPRGYFKMRTGKSSIMRSDAPIDTCISECITPNGSIPNDKPFQNVNKITYGACPKYVKQSTLKLATGMRNVPEKQTRGLFGAIAGFIENGWEGMIDGWYGFRHQNSEGTGQAADLKSTQAAIDQINGKLNR
+#=GR Aseg4-prot3A.seg4prot3A/30..1730:+ PP ********************************************************************************************************************************************************************************************************
+Aseg4-protB.seg4protB/30..1730:+           HPSTDRDQTSLYVQASGRVTVSTKRSQQTVIPNIGFRPWVRGISSIISIYWTIVKPGDILLITSTGNLIAPRGYFKIRSGKSSIMRSDAPIDNCNSECITPNGSIPNDKPFQNVNRITYGACPRYVKQNTLKLATGMRNVPEKQTRGIFGAIAGFIENGWEGMVDGWYGFRHQNSEGTGQAADLKSTQAAINQITGKLNR
+#=GR Aseg4-protB.seg4protB/30..1730:+   PP ********************************************************************************************************************************************************************************************************
+Aseg4-protC.seg4protC/30..1730:+           HPSSNQQQTELYIQESGRVTVSTKRSQQTIIPNIGSRPWVRGQSGRISIYWTIVKPGDILMINSNGNLVAPRGYFKLKTGKSSVMRSDAPIDICVSECITPNGSIPNDKPFQNVNKVTYGKCPKYIRQNTLKLATGMRNVPEKQIRGIFGAIAGFIENGWEGMVDGWYGFRYQNSEGTGQAADLKSTQAAIDQINGKLNR
+#=GR Aseg4-protC.seg4protC/30..1730:+   PP ********************************************************************************************************************************************************************************************************
+#=GC PP_cons                               ********************************************************************************************************************************************************************************************************
+#=GC RF                                    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+CY002000.1/30..1730:+                      LIGKTNEKFHQIEKEFSEVEGRIQDLEKYVEDTKIDLWSYNAELLVALENQHTIDLTDSEMNKLFERTKKQLRENAEDMGNGCFKIYHKCDNACIGSIRNGTYDHDVYRDEALNNRFQIKGVELKSGYKDWILWISFAISCFLLCVALLGFIMWACQKGNIRCNICI
+#=GR CY002000.1/30..1730:+              PP **********************************************************************************************************************************************************************8
+Aseg4-prot3A.seg4prot3A/30..1730:+         VIEKTNEKFHQIEKEFSEVEGRIQDLEKYVEDTKIDLWSYNAELLVALENQHTIDLTDSEMNKLFEKTRRQLRENAEDMGNGCFKIYHKCDNACIESIRNGTYDHDIYRDEALNNRFQIKGVELKSGYKDWILWISFAISCLLLCVVLLGFIMWACQRGNIRCNICI
+#=GR Aseg4-prot3A.seg4prot3A/30..1730:+ PP **********************************************************************************************************************************************************************8
+Aseg4-protB.seg4protB/30..1730:+           VIKKTNEKFHQIEKEFSEVEGRIQDLEKYVEDTKIDLWSYNAELLVALENQHTIDLTDSEMNKLFERTRKQLRENAEDMGNGCFKIYHKCDNACIGSIRNGTYDHDVYRDEALNNRFQIKGVELKSGYKDWILWISFAISCFLLCVVLLGFIMWACQKGNIRCNICI
+#=GR Aseg4-protB.seg4protB/30..1730:+   PP **********************************************************************************************************************************************************************8
+Aseg4-protC.seg4protC/30..1730:+           VIERTNEKFHQIEKEFSEVEGRIQDLEKYVEDTKIDLWSYNAELLVALENQHTIDLTDAEMNKLFEKTRRQLRENAEDMGGGCFKIYHKCDNACIGSIRNGTYDHYIYRDEALNNRFQIKGVELKSGYKDWILWISFAISCFLICVVLLGFIMWACQKGNIRCNICI
+#=GR Aseg4-protC.seg4protC/30..1730:+   PP **********************************************************************************************************************************************************************8
+#=GC PP_cons                               **********************************************************************************************************************************************************************8
+#=GC RF                                    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//

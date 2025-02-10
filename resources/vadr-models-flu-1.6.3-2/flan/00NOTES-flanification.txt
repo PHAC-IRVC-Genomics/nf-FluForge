@@ -1,0 +1,66 @@
+EPN, Fri Apr 28 15:27:40 2023
+
+Several changes were made to the VADR models specifically so the
+output of v-annotate.pl would match FLAN output. These changes are not
+necessarily 'correct', and maybe should be rethought and potentially
+reverted in the final VADR model files. They are listed here in this
+file so they'll be easy to review in the future.
+
+1. bitbucket commits: e27a4b6
+
+   file: flan/flu-flan.minfo file 
+
+   model: CY002284 
+   27..864:+           gene:gene   "NS2" changed to "NEP"
+   27..56:+,529..864:+ CDS:gene    "NS2" changed to "NEP"
+   27..56:+,529..864:+ CDS:product "nonstructural protein 2" changed to "nuclear export protein"
+
+   model: AY504599
+   24..2336:+          CDS:product "basic polymerase subunit 2" changed to "polymerase PB2"
+
+   model: AY504605
+   25..771:+           gene:product "matrix protein" changed to "matrix protein 1"
+
+   model AY504614      
+   44..1067:+           gene:gene "NS2" changed to "NEP"
+   44..76:+,732..1067:+ CDS:gene  "NS2" changed to "NEP"
+   44..76:+,732..1067:+ CDS:product "nonstructural protein 2" changed to "nuclear export protein"
+
+   model GM968015
+   1..728:+,957..957:+ gene:product "matrix protein" changed to "matrix protein 1"
+
+   model GM968017
+   1..1968:+ gene:gene   "HEF" changed to "HE"                       
+   1..1968:+ CDS:gene    "HEF" changed to "HE"                       
+   1..1968:+ CDS:product "hemagglutinin-esterase-fusion" changed to "hemagglutinin-esterase"
+
+   model GM968018
+   1..2130:+ CDS:product "polymerase 3" changed to "polymerase P3"
+
+   model GM968019
+   1..2265:+ CDS:product "polymerase 1" changed to "polymerase PB1"
+
+   model NC_006306
+   27..888:+            gene:gene    "NS2" changed to "NEP"
+   27..213:+,527..888:+ CDS:gene     "NS2" changed to "NEP"
+
+2. bitbucket commit 7888035
+
+   file: flan/flu-flan.minfo
+
+   model CY003645 
+   25..597:+,599..784:+ CDS coords changed to 25..594:+,596..784:+
+   this doesn't seem to change the protein sequence in (at least) in
+   NC_002022.1, (TTC -> Phe changed to TTT -> Phe).
+
+   files: flan/CY003645.vadr.protein.fa
+          flan/CY003645.vadr.protein.fa.phr
+          flan/CY003645.vadr.protein.fa.pin
+   25..597:+,599..784:+ CDS coords changed to 25..594:+,596..784:+
+   for 4 proteins, and reran makeblastdb.
+
+   NOTE: there was another change in this commit, to the sig_peptide
+   boundary for M35997. This was a correction of the vadr model file
+   and should not be reverted. It should have been put in its own
+   commit.
+

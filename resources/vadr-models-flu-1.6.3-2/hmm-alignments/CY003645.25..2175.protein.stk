@@ -1,0 +1,38 @@
+# STOCKHOLM 1.0
+
+CY003645.1/25..2175:+                    MEDFVRQCFNPMIVELAEKTMKEYGEDLKIETNKFAAICTHLEVCFMYSDFHFINEQGESIMVELDDPNALLKHRFEIIEGRDRTMAWTVVNSICNTTGAEKPKFLPDLYDYKENRFIEIGVTRREVHIYYLEKATKIKSENTHIHIFSFTGEEMATKADYTLDEESRARIKTRLFTIRQEMANRGLWDSFRQSERGEET
+#=GR CY003645.1/25..2175:+            PP 9*******************************************************************************************************************************************************************************************************
+Aseg3-prot1A.seg3prot/25..2175:+         MEDFVRQCFNPMIVELAEKTMKEYGEDLKIETNKFAAICTHLEVCFMYSDFHFINEQGESIIVELGDPSALLKHRFEIIEGRDRTMAWTVVNSICNTTGAEKPKFLPDLYDYKENRFIEIGVTRREVHIYYLEKANKIKSEKTHIHIFSFTGEEMATKADYTLDEESRARIKTRLFTIRQEMASRGLWDSFRQSERGEET
+#=GR Aseg3-prot1A.seg3prot/25..2175:+ PP 9*******************************************************************************************************************************************************************************************************
+LC625435.1:20..2170:+/25..2175:+         MEDFVRQCFNPMIVELAERAMKEYGEDPKIEANKFAAICTHLEVCFMYSDFHFIDERGESTIVESDDPNALLKHRFEIIEGRDRTMAWTVVNSICNTTGVDKPKFLPDLYDYKENRFIEIGVTRREIHIYYLEKANKIKSEKTHIHIFSFTGEEMATKADYTLDEESRARIKTRLFTIRQEMASRGLWDSFRQSERGEET
+#=GR LC625435.1:20..2170:+/25..2175:+ PP 9*******************************************************************************************************************************************************************************************************
+#=GC PP_cons                             9*******************************************************************************************************************************************************************************************************
+#=GC RF                                  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+CY003645.1/25..2175:+                    IEEKFEISGTMRRLADQSLPPNFSCLENFRAYVDGFEPNGCIEGKLSQMSKEVNAKIEPFLKTTPRPIKLPNGPPCYQRSKFLLMDALKLSIEDPSHEGEGIPLYDAIKCIKTFFGWKEPYIVKPHEKGINSNYLLSWKQVLSELQDIENEEKIPRTKNMKKTSQLKWALGENMAPEKVDFDNCRDISDLKQYDSDEPEL
+#=GR CY003645.1/25..2175:+            PP ********************************************************************************************************************************************************************************************************
+Aseg3-prot1A.seg3prot/25..2175:+         IEERFEITGTMRKLADQSLPPNFSSLENFRAYVDGFEPNGYIEGKLSQMSKEVNARIEPFLKTTPRPLRLPNGPPCSQRSKFLLMDALKLSIEDPSHEGEGIPLYDAIKCMRTFFGWKEPNVVKPHEKGINPNYLLSWKQVLAELQDIENEEKIPKTKNMKKTSQLKWALGENMAPEKVDFDDCKDVGDLKQYDSDEPEL
+#=GR Aseg3-prot1A.seg3prot/25..2175:+ PP ********************************************************************************************************************************************************************************************************
+LC625435.1:20..2170:+/25..2175:+         IEERFEIAGTMRRLADQSLPPNFSSLENFRAYVDGFEPNGCIEGKLSQMSKEVNARIEPFLRTTPRPLKLPDGPPCSQRSKFLLMDALKLSIEDPSHEGEGIPLYDAIKCMKTFFGWKEPNIVKPHEKGINPNYLLAWKQVLAEIQDIENEEKIPKTKNMRKTSQLKWALGENMAPEKVDFEDCKDVSDLRQYESDEPES
+#=GR LC625435.1:20..2170:+/25..2175:+ PP ********************************************************************************************************************************************************************************************************
+#=GC PP_cons                             ********************************************************************************************************************************************************************************************************
+#=GC RF                                  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+CY003645.1/25..2175:+                    RSLSSWIQNEFNKACELTDSIWIELDEIGEDVAPIEYIASMRRNYFTAEVSHCRATEYIMKGVYINTALLNASCAAMDDFQLIPMISKCRTKEGRRKTNLYGFIIKGRSHLRNDTDVVNFVSMEFSLTDPRLEPHKWEKYCVLEIGDMLLRSAIGQISRPMFLYVRTNGTSKVKMKWGMEMRRCLLQSLQQIESMIEAES
+#=GR CY003645.1/25..2175:+            PP ********************************************************************************************************************************************************************************************************
+Aseg3-prot1A.seg3prot/25..2175:+         RSLASWIQNEFNKACELTDSSWIELDEIGEDVAPIEHIASMRRNYFTSEVSHCRATEYIMKGVYINTALLNASCAAMDDFQLIPMISKCRTKEGRRKTNLYGFIIKGRSHLRNDTDVVNFVSMEFSLTDPRLEPHKWEKYCVLEIGDMLIRSAIGQVSRPMFLYVRTNGTSKIKMKWGMEMRRCLLQSLQQIESMIEAES
+#=GR Aseg3-prot1A.seg3prot/25..2175:+ PP ********************************************************************************************************************************************************************************************************
+LC625435.1:20..2170:+/25..2175:+         RSLASWIQSEFNKACELTDSSWVELDEIGEDVAPIEHIASMRRNYFTAEVSHCRATEYIMKGVYINTALLNASCAAMDDFQLIPMISKCRTKEGRRKTNLYGFIIKGRSHLRNDTDVVNFVSMEFSLTDPRLEPHKWEKYCVLEIGDMLLRTAIGQVSRPMFLYVRTNGTSKIKMKWGMEMRRCLLQSLQQIESMIEAES
+#=GR LC625435.1:20..2170:+/25..2175:+ PP ********************************************************************************************************************************************************************************************************
+#=GC PP_cons                             ********************************************************************************************************************************************************************************************************
+#=GC RF                                  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+CY003645.1/25..2175:+                    SIKEKDMTKEFFENKSEAWPIGESPKGVEEGSIGKVCRTLLAKSVFNSLYASPQLEGFSAESRKLLLVVQALRDNLEPGTFDLGGLYEAIEECLINDPWVLLNASWFNSFLTHALK..
+#=GR CY003645.1/25..2175:+            PP ******************************************************************************************************************98..
+Aseg3-prot1A.seg3prot/25..2175:+         SVKEKDMTKEFFENKSETWPIGESPKGVEESSIGKVCRTLLAKSVFNSLYASPQLEGFSAESRKLLLIVQALRDNLEPGTFDLGGLYEAIEECLINDPWVLLNASWFNSFLTHAL-s.
+#=GR Aseg3-prot1A.seg3prot/25..2175:+ PP ******************************************************************************************************************8.6.
+LC625435.1:20..2170:+/25..2175:+         SVKEKDMTKEFFENKSETWPIGESPKGVEEGSIGKVCRTLLAKSVFNSLYASPQLEGFSAESRKLLLIVQALRDNLEPGTFDLGGLYEAIEECLINDPWVLLNASWFNSFLTHA--rq
+#=GR LC625435.1:20..2170:+/25..2175:+ PP *****************************************************************************************************************9..57
+#=GC PP_cons                             *****************************************************************************************************************998..
+#=GC RF                                  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx..
+//

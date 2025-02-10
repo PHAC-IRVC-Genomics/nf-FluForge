@@ -1,0 +1,5 @@
+current git commit hash: a0debfa
+git repo:     https://nawrockie@bitbucket.org/nawrockie/vadr-models-flu.git
+git branch:   master
+dir name:     vadr-models-flu-1.6.3-2
+packaged on: Tue Mar 19 18:12:10 EDT 2024

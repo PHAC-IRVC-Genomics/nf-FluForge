@@ -1,0 +1,30 @@
+# STOCKHOLM 1.0
+
+Aseg2-prot1A.seg2prot1A/25..2301:+         MDVNPTLLFLKVPAQNAISTTFPYTGDPPYSHGTGTGYTMDTVNRTHQYSEKGKWTTNTETGAPQLNPIDGPLPEDNEPSGYAQTDCVLEAMAFLEESHPGIFENSCLETMEVVQQTRVDKLTQGRQTYDWTLNRNQPAATALANTIEVFRSNGLTANESGRLIDFLKDVMESMDKEEMEITTHFQRKRRVRDNMTKKMV
+#=GR Aseg2-prot1A.seg2prot1A/25..2301:+ PP 9*******************************************************************************************************************************************************************************************************
+AB586849.1:8..2284:+/25..2301:+            MDVNPTLLFLKVPAQNAISTTFPYTGDPPYSHGTGTGYTMDTVDRTHQYSEKGRWTTNTETGAPQLNPIDGPLPEDNEPSGSAQTDCVLEAMAFLEESHPGLFENSCLETMEVVQQTRVDKLTQGRQTYDWTLNRNQPAATALANTIEVFRSNSLTANESGRLIDFLKDVMESMDKEEMEITTHFQRKRRVRDNMTKKMV
+#=GR AB586849.1:8..2284:+/25..2301:+    PP 9*******************************************************************************************************************************************************************************************************
+#=GC PP_cons                               9*******************************************************************************************************************************************************************************************************
+#=GC RF                                    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+Aseg2-prot1A.seg2prot1A/25..2301:+         TQRTIGKKKQRLNKRSYLIRALTLNTMTKDAERGKLKRRAIATPGMQIRGFVYFVETLARSICEKLEQSGLPVGGNEKKAKLANVVRKMMTNSQDTELSFTITGDNTKWNENQNPRMFLAMITYITRNQPEWFRNVLSIAPIMFSNKMARLGKGYMFESKSMKLRTQIPAEMLASIDLKYFNESTRKKIEKIRPLLIDGT
+#=GR Aseg2-prot1A.seg2prot1A/25..2301:+ PP ********************************************************************************************************************************************************************************************************
+AB586849.1:8..2284:+/25..2301:+            TQRTIGKKKQKLTKKSYLIRALTLNTMTKDAERGKLKRRAIATPGMQIRGFVHFVEALARSICEKLEQSGLPVGGNEKKAKLANVVRKMMTNSQDTELSFTVTGDNTKWNENQNPRIFLAMITYITRNQPEWFRNVLSIAPIMFSNKMARLGKGYMFESKSMKLRTQIPAEMLANIDLKYFNESTRKKIEKIRPLLIEGT
+#=GR AB586849.1:8..2284:+/25..2301:+    PP ********************************************************************************************************************************************************************************************************
+#=GC PP_cons                               ********************************************************************************************************************************************************************************************************
+#=GC RF                                    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+Aseg2-prot1A.seg2prot1A/25..2301:+         ASLSPGMMMGMFNMLSTVLGVSILNLGQKRYTKTTYWWDGLQSSDDFALIVNAPNHEGIQAGVDRFYRTCKLVGINMSKKKSYINRTGTFEFTSFFYRYGFVANFSMELPSFGVSGINESADMSIGVTVIKNNMINNDLGPATAQMALQLFIKDYRYTYRCHRGDTQIQTRRSFELKKLWEQTRSKAGLLVSDGGPNLYN
+#=GR Aseg2-prot1A.seg2prot1A/25..2301:+ PP ********************************************************************************************************************************************************************************************************
+AB586849.1:8..2284:+/25..2301:+            ASLSPGMMMGMFNMLSTVLGVSILNLGQKRYTKTTYWWDGLQSSDDFALIVNAPNHEGIQAGVDRFYRTCKLVGINMSKKKSYINRTGTFEFTSFFYRYGFVANFSMELPSFGVSGINESADMSIGVTVIKNNMINNDLGPATAQMALQLFIKDYRYTYRCHRGDTQIQTRRSFELKKLWEQTRSKAGLLVSDGGPNLYN
+#=GR AB586849.1:8..2284:+/25..2301:+    PP ********************************************************************************************************************************************************************************************************
+#=GC PP_cons                               ********************************************************************************************************************************************************************************************************
+#=GC RF                                    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+Aseg2-prot1A.seg2prot1A/25..2301:+         IRNLHIPEVCLKWELMDEDYQGRLCNPLNPFVSHKEIESVNNAVVMPAHGPAKSMEYDAVATTHSWIPKRNRSILNTSQRGILEDEQMYQKCCNLFEKFFPSSSYRRPVGISSMVEAMVSRARIDARIDFESGRIKKEEFAEIMKICSTIEELRRQKS..
+#=GR Aseg2-prot1A.seg2prot1A/25..2301:+ PP *************************************************************************************************************************************************************8..
+AB586849.1:8..2284:+/25..2301:+            IRNLHIPEVCLKWELMDEDYQGRLCNPLNPFVSHKEVESVNNAVVMPAHGPAKSMEYDAVATTHSWIPKRNRSILNTSQRGILEDEQMYQKCCTLFEKFFPSSSYRRPVGISSMMEAMVSRARIDARIDFESGRIKKEEFAEILKICSTIEELGRQ--gk
+#=GR AB586849.1:8..2284:+/25..2301:+    PP *********************************************************************************************************************************************************999..68
+#=GC PP_cons                               ***********************************************************************************************************************************************************9*8..
+#=GC RF                                    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx..
+//

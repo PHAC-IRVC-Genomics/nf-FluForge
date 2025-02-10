@@ -1,0 +1,6 @@
+test*/
+*test/
+work*/
+results*/
+.nextflow*/
+.nextflow*

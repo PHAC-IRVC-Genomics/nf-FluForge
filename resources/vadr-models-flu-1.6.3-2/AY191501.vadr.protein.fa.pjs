@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "AY191501.vadr.protein.fa",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "AY191501.vadr.protein.fa",
+  "number-of-letters": 1498,
+  "number-of-sequences": 4,
+  "last-updated": "2023-12-18T19:56:00",
+  "number-of-volumes": 1,
+  "bytes-total": 38973,
+  "bytes-to-cache": 1663,
+  "files": [
+    "AY191501.vadr.protein.fa.pdb",
+    "AY191501.vadr.protein.fa.phr",
+    "AY191501.vadr.protein.fa.pin",
+    "AY191501.vadr.protein.fa.pot",
+    "AY191501.vadr.protein.fa.psq",
+    "AY191501.vadr.protein.fa.ptf",
+    "AY191501.vadr.protein.fa.pto"
+  ]
+}

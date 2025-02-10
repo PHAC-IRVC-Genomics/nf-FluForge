@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "NC_006312.vadr.protein.fa",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "NC_006312.vadr.protein.fa",
+  "number-of-letters": 381,
+  "number-of-sequences": 2,
+  "last-updated": "2023-12-18T19:56:00",
+  "number-of-volumes": 1,
+  "bytes-total": 37617,
+  "bytes-to-cache": 528,
+  "files": [
+    "NC_006312.vadr.protein.fa.pdb",
+    "NC_006312.vadr.protein.fa.phr",
+    "NC_006312.vadr.protein.fa.pin",
+    "NC_006312.vadr.protein.fa.pot",
+    "NC_006312.vadr.protein.fa.psq",
+    "NC_006312.vadr.protein.fa.ptf",
+    "NC_006312.vadr.protein.fa.pto"
+  ]
+}

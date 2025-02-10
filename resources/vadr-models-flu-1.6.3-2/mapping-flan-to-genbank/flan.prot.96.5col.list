@@ -1,0 +1,96 @@
+Aseg1-prot1A.Seg1prot1A AAV35117.1 54610037 identical AY626149.1:28..2307:+
+Aseg1-prot1B.Seg1prot1B AAV35117.1 54610037 nonidentical AY626149.1:28..2307:+ acc_is_2_AA_shorter_than_flan_seq_(QY_added_at_end)
+Aseg2-prot1A.seg2prot1A ABB88367.1 82654857 nonidentical CY005794.1:25..2301:+ final_flan_AA_is_S,_final_acc_AA_is_Q
+Aseg2-prot1B.seg2prot1B UYR15196.1 2321499531 identical OP723778.1:13..2286:+
+Aseg2-prot2A.seg2prot2A WDV23684.1 2449946929 identical OQ535109.1:119..391:+
+Aseg2-prot2B.seg2prot2B ABA42344.1 76418837 identical CY003102.1:107..370:+
+Aseg2-prot2C.seg2prot2C WDV23684.1 2449946929 subseq OQ535109.1:119..355:+ 11_AA_missing_at_end
+Aseg2-prot2D.seg2prot2D AGH99765.1 469935342 identical KC738266.1:56..229:+
+Aseg2-prot2E.seg2prot2E WDV23684.1 2449946929 subseq OQ535109.1:119..295:+ 31_AA_missing_at_end
+Aseg2-prot2F.seg2prot2F ABD15546.1 86813869 identical CY008538.1:105..410:+
+Aseg2-prot2G.seg2prot2G WDV23684.1 2449946929 subseq OQ535109.1:119..307:+ 27_AA_missing_at_end
+Aseg2-prot2H.seg2prot2H AFH00569.1 383279605 identical CY114323.1:218..376:+
+Aseg2-prot2I.seg2prot2I WDV23684.1 2449946929 subseq OQ535109.1:119..352:+ 12_AA_missing_at_end
+Aseg2-prot2J.seg2prot2J WDV23684.1 2449946929 subseq OQ535109.1:119..286:+ 34_AA_missing_at_end
+Aseg2-prot2K.seg2prot2K ABC84420.1 85816132 subseq CY008186.1:107..349:+ 20_AA_missing_at_end
+Aseg2-prot2L.seg2prot2L WDV23684.1 2449946929 subseq OQ535109.1:119..346:+ 14_AA_missing_at_end
+Aseg2-prot2M.seg2prot2M AJY79470.1 779787105 identical KP872978.1:95..367:+
+Aseg3-prot1A.seg3prot BAA99401.1 9049386 identical AB036780.1:25..2175:+
+Aseg3-prot2A.seg3prot2A YP_006495785.1 393693122 identical NC_002022.1:25..597:+,599..784:+
+Aseg3-prot2B.seg3prot2B YP_006495785.1 393693122 subseq NC_002022.1:25..597:+,599..721:+ 20_AA_missing_at_end
+Aseg3-prot2C.seg3prot2C YP_006495785.1 393693122 nonidentical NC_002022.1:25..597:+,599..784:+ position_190_is_P_in_flan,_S_in_acc
+Aseg3-prot2D.seg3prot2D YP_006495785.1 393693122 nonidentical NC_002022.1:25..597:+,599..784:+ position_191_is_S_in_flan,_F_in_acc
+Aseg4-prot3A.seg4prot3A ABM66853.1 122850431 identical CY019197.1:9..1709:+
+Aseg4-prot5A.seg4prot5A YP_308669.1 73852955 nonidentical NC_007362.1:22..1728:+ acc_is_1_AA_longer_than_flan_seq,_R_deleted_after_AA_posn_341
+Aseg4-prot5B.seg4prot5A YP_308669.1 73852955 nonidentical NC_007362.1:22..1728:+ acc_is_2_AA_longer_than_flan_seq,_ER_deleted_after_AA_posn_339
+Aseg4-prot7A.seg4prot7A ACF25808.1 193878215 identical EU743261.1:10..1668:+
+Aseg4-prot7C.seg4prot7C AAQ77403.1 34597705 identical AY303631.1:5..1717:+
+Aseg4-prot7D.seg4prot7D AGT41211.1 530720379 identical KF493205.1:1..1695:+
+Aseg4-prot7E.seg4prot7E AAA43154.1 324102 identical M17736.1:1..1692:+
+Aseg4-prot7F.seg4prot7F CAF04466.1 40732900 identical AJ620350.1:22..1710:+
+Aseg4-protA.seg4protA AAO65612.1 30522968 nonidentical AY233393.1:1..1701:+ positions_15_and_16_are_AD_in_acc_and_TY_in_FLAN
+Aseg4-protB.seg4protB AAV80797.1 56159971 identical AY779253.1:1..1701:+
+Aseg4-protC.seg4protC AAB36976.1 722404 identical L39914.1:30..1727:+
+Aseg4-protD.seg4protD AAA43185.1 324146 identical J02127.1:44..1732:+
+Aseg4-protE.seg4protE ABI84453.1 115278118 nonidentical CY014604.1:18..1724:+ position_81_is_a_D_in_acc_and_a_H_in_FLAN
+Aseg4-protF.seg4protF BAA14333.1 221316 identical D90303.1:1..1701:+
+Aseg4-protG.seg4protG BAA14332.1 221314 identical D90302.1:1..1695:+
+Aseg4-protH.seg4protH BAA14338.1 221312 identical D90308.1:1..1701:+
+Aseg4-protI.seg4protI BAA14334.1 221318 identical D90304.1:1..1698:+
+Aseg4-protJ.seg4protJ BAA14335.1 221320 identical D90305.1:1..1683:+
+Aseg4-protK.seg4protK BAA14336.1 221308 identical D90306.1:1..1698:+
+Aseg4-protL.seg4protL BAA14337.1 221310 identical D90307.1:1..1695:+
+Aseg4-protM.seg4protM AAV91217.1 56425021 identical AY684891.1:34..1734:+
+Aseg4-protN.seg4protN ACS88989.1 242263379 identical GQ176144.1:19..1704:+
+Aseg4-protO.seg4protO CAD38282.1 32452665 identical AJ493466.1:1..1683:+
+Aseg4-protP.seg4protP YP_308669.1 73852955 identical NC_007362.1:22..1728:+
+Aseg5-prot1A.seg5prot WED30383.1 2451890235 identical OQ584633.1:46..1542:+
+Aseg6-prot1A.seg6prot1A AAP59860.1 31872384 identical AY310407.1:10..1422:+
+Aseg6-prot1B.seg6prot1B AAP57553.1 31747387 identical AY300941.1:1..1410:+
+Aseg6-prot1C.seg6prot1C AAP57553.1 31747387 subseq AY300941.1:1..1404:+ 1_AA_missing_at_end
+Aseg6-prot1D.seg6prot1D ADE75141.1 294441513 identical CY060263.1:15..1433:+
+Aseg6-prot1E.seg6prot1E ACQ83078.1 229598478 identical CY039582.1:19..1428:+
+Aseg6-prot1F.seg6prot1F ADU53003.1 315620193 identical CY079592.1:2..1414:+
+Aseg6-prot1G.seg6prot1G ACA04555.1 167859212 identical CY029875.1:2..1414:+
+Aseg7-prot1A.seg7prot1 WCR54600.1 2441942437 identical OQ413796.1:14..772:+
+Aseg7-prot2A.seg7prot2A UEF70024.1 2129354131 identical OL370180.1:1..26:+,715..982:+
+Aseg7-prot2B.seg7prot2B UEF70024.1 2129354131 subseq OL370180.1:1..26:+,715..976:+ 1_AA_missing_at_end
+Aseg8-prot1A.seg8prot1A AAY28290.1 63033962 identical CY001132.1:25..738:+
+Aseg8-prot1B.seg8prot1B QDA17383.1 1680941417 identical MN054469.1:27..719:+
+Aseg8-prot1C.seg8prot1C QDA17383.1 1680941417 subseq MN054469.1:27..677:+ 13_AA_missing_at_end
+Aseg8-prot1D.seg8prot1D ABL75923.1 119514271 identical EF124798.1:1..672:+
+Aseg8-prot1E.seg8prot1E QDA17383.1 1680941417 subseq MN054469.1:27..686:+ 10_AA_missing_at_end
+Aseg8-prot1F.seg8prot1F QDA17383.1 1680941417 subseq MN054469.1:27..698:+ 6_AA_missing_at_end
+Aseg8-prot1G.seg8prot1G ABL75554.1 119497093 identical EF140699.1:1..660:+
+Aseg8-prot1I.seg8prot1I AAX56445.1 61927386 nonidentical CY000389.1:27..737:+ acc_is_1_AA_shorter_than_flan_seq,_(C_added_at_end)
+Aseg8-prot1J.seg8prot1I AHY20808.1 620599117 identical KJ664226.1:27..719:+
+Aseg8-prot1K.seg8prot1K QDA17383.1 1680941417 subseq MN054469.1:27..707:+ 3_AA_missing_at_end
+Aseg8-prot2A.seg8prot2A WED31038.1 2451891060 identical OQ584803.1:1..30:+,503..838:+
+Bseg1-prot1A.seg1prot1A_6318393 AAF06873.1 6318393 identical AF102004.1:1..2259:+
+Bseg2-prot1A.seg2prot1A_53829923 AAU94866.1 53829923 identical AY582067.1:1..2313:+
+Bseg3-prot1A.seg3prot1A_53829871 AAU94840.1 53829871 identical AY582041.1:1..2181:+
+Bseg4-prot1A.seg4prot1A_53829681 AAU94721.1 53829681 identical AY581970.1:1..1758:+
+Bseg4-prot1B.seg4prot2A AEP20387.1 347730377 nonidentical CY099522.1:4..1761:+ flan_has_an_N_deleted_at_AA_posn_178_in_acc
+Bseg4-prot1C.seg4prot3A AAU94721.1 53829681 nonidentical AY581970.1:1..1758:+ flan_has_an_N_deleted_at_AA_posn_178_and_an_N_deleted_at_AA_posn_180_in_acc
+Bseg5-prot1A.seg5prot1A_4760945 AAD29159.1 4760945 identical AF100361.1:1..1683:+
+Bseg6-prot1A.seg6prot1A_28302102 AAO38875.1 28302102 identical AY191501.1:47..349:+
+Bseg6-prot2A.seg6prot2A_53829771 AAU94781.1 53829771 identical AY582000.1:8..1408:+
+Bseg6-prot2B.seg6prot2B AAU94781.1 53829771 nonidentical AY582000.1:8..1408:+ acc_is_1_AA_longer_than_flan_seq,_T_deleted_in_flan_after_AA_posn_43
+Bseg7-prot1A.seg7prot1A_50059400 AAT69429.1 50059400 identical AY504605.1:25..771:+
+Bseg7-prot2A.seg7prot2A_51340786 AAU01002.1 51340786 identical AY687399.1:748..1077:+
+Bseg7-prot2B.seg7prot2B_53829687 AAU94725.1 53829687 identical AY581972.1:747..1079:+
+Bseg7-prot2C.seg7prot2C ACB06477.1 170027556 nonidentical CY030848.1:747..1079:+ position_106_is_a_V_in_flan_and_I_in_acc
+Bseg8-prot1A.seg8prot1A AAM14568.1 20162331 nonidentical AF492479.1:1..846:+ flan_has_a_E_inserted_after_acc_AA_posn_133
+Bseg8-prot1B.seg8prot1B_20162331 AAM14568.1 20162331 identical AF492479.1:1..846:+
+Bseg8-prot1C.seg8prot1C_660872060 AIE09311.1 660872060 identical KM063840.1:1..849:+
+Bseg8-prot2A.seg8prot2A_50059441 AAT69453.1 50059441 identical AY504622.1:44..76:+,732..1067:+
+Bseg8-prot2B.seg8prot2B_660872061 AIE09312.1 660872061 identical KM063840.1:1..36:+,692..1027:+
+Cseg1-prot1A.Seg1prot1A CAY77145.1 236158006 identical GN364866.1:1..2325:+
+Cseg2-prot1A.Seg2prot1A YP_089653.1 52630352 identical NC_006308.2:18..2282:+
+Cseg3-prot1A.Seg3prot1A YP_089654.1 52630354 identical NC_006309.2:22..2151:+
+Cseg4-prot1A.Seg4prot1A YP_089655.1 52630356 identical NC_006310.2:22..1989:+
+Cseg5-prot1A.Seg5prot1A YP_089656.1 52630358 identical NC_006311.1:30..1727:+
+Cseg6-prot1A.Seg6prot1A YP_089657.1 52673230 identical NC_006312.2:26..753:+,982..982:+
+Cseg6-prot2A.Seg6prot2A YP_089658.1 52673231 identical NC_006312.2:731..1150:+
+Cseg7-prot1A.Seg7prot1A WAP76080.1 2413542397 identical OQ030188.1:1..>738:+
+Cseg7-prot2A.Seg7prot2A BCS51533.1 1997037129 identical LC603644.1:1..187:+,501..862:+

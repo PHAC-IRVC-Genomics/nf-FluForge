@@ -1,0 +1,24 @@
+# STOCKHOLM 1.0
+
+AY504614.1/44..889:+                                ma---DNMTTTQIEVGPGATNATINFEAGILECYERLSWQRALDYPGQDRLNRLKRKLESRIKTHNKSEPESKRMSLEERKAIGVKMMKVLLFMDPSAGIEGFEPYCMKSSSNSNCPKYNWINYPLTPGRCLDDIEEEPEDVDGPTEIVLRDMNNKDARQKIKEEVNTQKEGKFRLTIKRDIRNVLSLRVLVNGTFLKHP
+#=GR AY504614.1/44..889:+                        PP 74...69*************************************************************************************************************************************************************************************************
+Bseg8-prot1A.seg8prot1A/44..889:+                   ma---DNMTTTQIEVGPGATNATINFEAGILECYERLSWQRALDYPGQDRLNRLKRKLESRIKTHNKSEPESKRMSLEERKAIGVKMMKVLLFMDPSAGIEGFEPYCMKSSSNSNCPKYNWTDYPSTPGRCLDDIEEEPEDVDGPTEIVLRDMNNKDARQKIKEEVNTQKEGKFRLTIKRDIRNVLSLRVLVNGTFLKHP
+#=GR Bseg8-prot1A.seg8prot1A/44..889:+           PP 74...69*************************************************************************************************************************************************************************************************
+Bseg8-prot1B.seg8prot1B_20162331/44..889:+          ma---DNMTTTQIEVGPGATNATINFEAGILECYERLSWQRALDYPGQDRLNRLKRKLESRIKTHNKSEPESKRMSLEERKAIGVKMMKVLLFMDPSAGIEGFEPYCMKSSSNSNCPKYNWTDYPSTPGRCLDDIEEEPEDVDGPTEIVLRDMNNKDARQKIKEEVNTQKEGKFRLTIKRDIRNVLSLRVLVNGTFLKHP
+#=GR Bseg8-prot1B.seg8prot1B_20162331/44..889:+  PP 74...69*************************************************************************************************************************************************************************************************
+Bseg8-prot1C.seg8prot1C_660872060/44..889:+         ..MANNNMTTTQIEVGPGATNATINFEAGILECYERLSWQRALDYPGQDRLNRLKRKLESRIKTHNKSEPESKRMSLEERKAIGVKMMKVLLFMNPSAGIEGFEPYCMNSSSNSNCTKYNWTDYPSTPERCLDDIEEEPEDVDGPTEIVLRDMNNKDARQKIKEEVNTQKEGKFRLTIKRDMRNVLSLRVLVNGTFLKHP
+#=GR Bseg8-prot1C.seg8prot1C_660872060/44..889:+ PP ..9*****************************************************************************************************************************************************************************************************
+#=GC PP_cons                                        ..9**79*************************************************************************************************************************************************************************************************
+#=GC RF                                             ..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+AY504614.1/44..889:+                                NGYKSLLTLHRLNTYDQSGRLVAKLVATDDLTVEDEEDGHRILNSLFERLNEGHSKPIRAAETAMGVLSQFGQEHRLSPEEGDN
+#=GR AY504614.1/44..889:+                        PP ***********************************************************************************8
+Bseg8-prot1A.seg8prot1A/44..889:+                   NGYKSLSTLHRLNAYDQSGRLVAKLVATDDLTVEDEEDGHRILNSLFERLNEGHSKPIRAAETAVGVLSQFGQEHRLSPEEGDN
+#=GR Bseg8-prot1A.seg8prot1A/44..889:+           PP ***********************************************************************************8
+Bseg8-prot1B.seg8prot1B_20162331/44..889:+          NGYKSLSTLHRLNAYDQSGRLVAKLVATDDLTVEDEEDGHRILNSLFERLNEGHSKPIRAAETAVGVLSQFGQEHRLSPEEGDN
+#=GR Bseg8-prot1B.seg8prot1B_20162331/44..889:+  PP ***********************************************************************************8
+Bseg8-prot1C.seg8prot1C_660872060/44..889:+         NGYKSLSTLHRLNAYDQSGRLVAKLVATDDLTVEDEEDGHRILNSLFERLNEGHSKPIRAAETAVGVLSQFGQEHRLSPEEGDN
+#=GR Bseg8-prot1C.seg8prot1C_660872060/44..889:+ PP ***********************************************************************************8
+#=GC PP_cons                                        ***********************************************************************************8
+#=GC RF                                             xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//

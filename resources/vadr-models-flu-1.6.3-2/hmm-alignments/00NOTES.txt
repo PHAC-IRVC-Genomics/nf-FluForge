@@ -1,0 +1,31 @@
+Dec 18 11:38:06 2023
+
+How the flu.hmm file was created:
+
+One HMM is needed for each unique set of CDS coordinates
+(e.g. coordinates 23..1435:+ for the CY004642 fluA-seg6 model). For
+each CDS coordinates set for which there is only one protein in the
+corresponding .vadr.protein.fa file in the top-level vadr-models-flu/
+directory, we built the HMM from a single sequence with a command like
+this:
+
+$VADRHMMERDIR/hmmbuild -n CY004435/23..1435:+ CY004435.23..1435.protein.hmm CY004435.23..1435.protein.fa
+
+There are 66 such commands in the build-hmms.sh script in this
+directory. The 66 input .fa files are also included in this directory.
+
+For any CDS coordinates set for which there is more than one protein
+in the corresponding .vadr.protein.fa file, we built the HMM in two
+steps. First the longest protein sequence in the .vadr.protein.fa file
+was used to build a single sequence HMM with a command like the one
+above. Then all of the sequences were aligned to that single sequence
+model using hmmalign to produce a multiple sequence alignment. Finally
+a new HMM was built from that alignment using a command like:
+
+$VADRHMMERDIR/hmmbuild --hand -n CY002009/26..784:+ CY002009.26..784.protein.hmm CY002009.26..784.protein.stk
+
+There are 45 such commands in the build-hmms.sh script in this
+directory. The 45 input .stk files are also included in this
+directory. 
+
+

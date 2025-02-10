@@ -1,0 +1,29 @@
+# STOCKHOLM 1.0
+
+CY002538.1/21..1433:+                      MNPNQKIITIGSISIAIGIISLMLQIGNIISIWASHSIQTGSQNHTGICNQRIITYENSTWVNHTYVNINNTNVVAGKDKTSVTLAGNSSLCSISGWAIYTKDNSIRIGSKGDVFVIREPFISCSHLECRTFFLTQGALLNDKHSNGTVKDRSPYRALMSCPLGEAPSPYNSKFESVAWSASACHDGMGWLTIGISGPDN
+#=GR CY002538.1/21..1433:+              PP 9*******************************************************************************************************************************************************************************************************
+Aseg6-prot1A.seg6prot1A/21..1433:+         MNPNQKIITIGSISIAIGIISLMLQIGNIISIWASHSIQTGSQNHTGVCNQRIITYENSTWVNHTYVNINNTNVIAGKDKTSVTLAGNSSLCSISGWAIYTKDNSIRIGSKGDVFVIREPFISCSHLECRTFFLTQGALLNDKHSNGTVKDRSPYRALMSCPLGEAPSPYNSKFESVAWSASACHDGMGWLTIGISGPDN
+#=GR Aseg6-prot1A.seg6prot1A/21..1433:+ PP 9*******************************************************************************************************************************************************************************************************
+KT181405.1:1..1410:+/21..1433:+            MNPNQKIITIGSVCMTIGMANLILQIGNIISIWISHSIQLGNQNQIETCNQSVITYENNTWVNQTYVNISNTNFAAGQSVVSVKLAGNSSLCPVSGWAIYSKDNSIRIGSKGDVFVIREPFISCSPLECRTFFLTQGALLNDKHSNGTIKDRSPYRTLMSCPIGEVPSPYNSRFESVAWSASACHDGINWLTIGISGPDN
+#=GR KT181405.1:1..1410:+/21..1433:+    PP 9*******************************************************************************************************************************************************************************************************
+#=GC PP_cons                               9*******************************************************************************************************************************************************************************************************
+#=GC RF                                    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+CY002538.1/21..1433:+                      GAVAVLKYNGIITETIKSWKKRILRTQESECVCVNGSCFTIMTDGPSNGAASYKIFKIEKGKVTKSIELNAPNFHYEECSCYPDTGTVMCVCRDNWHGSNRPWVSFNQNLDYQIGYICSGVFGDNPRPKDGKGSCNPVTVDGADGVKGFSYKYGNGVWIGRTKSNRLRKGFEMIWDPNGWTDTDSDFSVKQDVVAITDWS
+#=GR CY002538.1/21..1433:+              PP ********************************************************************************************************************************************************************************************************
+Aseg6-prot1A.seg6prot1A/21..1433:+         GAVAVLKYNGIITETIKSWKKQILRTQESECVCVNGSCFTIMTDGPSNGAASYKIFKIEKGKVTKSIELNAPNFHYEECSCYPDTGTVMCVCRDNWHGSNRPWVSFNQKLDYQIGYICSGVFGDNPRPKDGEGSCNPVTVDGANGVKGFSYKYGNGVWIGRTKSNRLRKGFEMIWDPNGWTDTDSDFSVKQDVVAITDWS
+#=GR Aseg6-prot1A.seg6prot1A/21..1433:+ PP ********************************************************************************************************************************************************************************************************
+KT181405.1:1..1410:+/21..1433:+            GAVAVLKYNGIITDTIKSWRNNILRTQESECACVNGSCFTVMTDGPSDGQASYKIFRIEKGKIVKSVEMNAPNYHYEECSCYPDSSEITCVCRDNWHGSNRPWVSFNQNLEYQIGYICSGIFGDNPRPNDKTGSCGPVSSNGANGVKGFSFKYGNGVWIGRTKSISSRNGFEMIWDPNGWTGTDNNFSIKQDIVGINEWS
+#=GR KT181405.1:1..1410:+/21..1433:+    PP ********************************************************************************************************************************************************************************************************
+#=GC PP_cons                               ********************************************************************************************************************************************************************************************************
+#=GC RF                                    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+CY002538.1/21..1433:+                      GYSGSFVQHPELTGLDCIRPCFWVELVRGLPRENtTIWTSGSSISFCGVDSDTANWSWPDGAELPFTIDK
+#=GR CY002538.1/21..1433:+              PP *********************************9459********************************8
+Aseg6-prot1A.seg6prot1A/21..1433:+         GYSGSFVQHPELTGLDCIRPCFWVELVRGLPKENtTIWTSGSSISFCGVNSDTANWSWPDGAELPFTIDK
+#=GR Aseg6-prot1A.seg6prot1A/21..1433:+ PP *********************************9459********************************8
+KT181405.1:1..1410:+/21..1433:+            GYSGSFVQHPELTGLDCIRPCFWVELIRGRPKEN.TIWTSGSSISFCGVNSDTVGWSWPDGAELPFTIDK
+#=GR KT181405.1:1..1410:+/21..1433:+    PP **********************************.**********************************8
+#=GC PP_cons                               *********************************9.7*********************************8
+#=GC RF                                    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//

@@ -1,0 +1,16 @@
+# STOCKHOLM 1.0
+
+Aseg8-prot1K.seg8prot1K/27..710:+         MDSNTVSSFQVDCFLWHIRKQVVDQELSDAPFLDRLRRDQRSLRGRGNTLGLDIKAATHVGKQIVEKILKGESDEALKMTMASTPASRYITDMTIEELSRNWFMLMPKQKVEGPLCIRMDQAIMEKNIMLKANFSVIFDRLETIVLLRAFTEEGAIVGEISPLPSFPGHTIEDVKNAIGVLIGGLEWNDNTVRVSKNLQR
+#=GR Aseg8-prot1K.seg8prot1K/27..710:+ PP 9*******************************************************************************************************************************************************************************************************
+MT261562.1:27..710:+/27..710:+            MDSNTVSSFQVDCFLWHIRKRFADQELGDAPFLDRLRRDQKSLRGRGSTLGLDIKTATRAGKQIVERILNEESDEELKLTIASMPASRYLTDMTLEEMSRDWFMLMPKQKVAGSLCIRMDQAIMDKNIILKANFSVIFDRLETLILLRAFTEEGAIVGEISPLPSLPGHTDEDVKNAIGVLIGGLEWNDNKVRVSETLQR
+#=GR MT261562.1:27..710:+/27..710:+    PP 9*******************************************************************************************************************************************************************************************************
+#=GC PP_cons                              9*******************************************************************************************************************************************************************************************************
+#=GC RF                                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+Aseg8-prot1K.seg8prot1K/27..710:+         FAWRSSNENGGPPLTPKQKRKMARTAR...
+#=GR Aseg8-prot1K.seg8prot1K/27..710:+ PP **************************8...
+MT261562.1:27..710:+/27..710:+            FAWRSSNEDGGPPLPPKQKWKMAR---pie
+#=GR MT261562.1:27..710:+/27..710:+    PP ***********************9...579
+#=GC PP_cons                              ***********************9**8...
+#=GC RF                                   xxxxxxxxxxxxxxxxxxxxxxxxxxx...
+//

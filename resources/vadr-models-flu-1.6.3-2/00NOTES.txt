@@ -1,0 +1,226 @@
+# v1.6.3-2, March 2024
+
+Outline of this file
+- Notes on how these models were built
+- Alternative model files in subdirectories
+- Additions to blastx db files (.vadr.protein.fa files) of sequences
+  NOT in the FLAN databases
+- Additional models not in FLAN
+- Explanation of selected files in this dir
+
+---
+Notes on how these models were built:
+
+These models were based on the reference sequences (nucleotide and
+protein) used by the FLAN flu annotation tool (PMID: 17545199
+https://www.ncbi.nlm.nih.gov/genomes/FLU/annotation/), with some
+additional sequences and models as explained below.
+
+Steps for creating the vadr flu models based on the FLAN database
+nucleotide sequences:
+
+There are 46 nucleotide sequences in the FLAN nucleotide database,
+downloaded from:
+https://ftp.ncbi.nih.gov/genomes/INFLUENZA/ANNOTATION/blastDB.fasta
+
+FLAN sequences were mapped to GenBank sequences as described in:
+./mapping-flan-to-genbank/00NOTES.txt
+
+Then v-build.pl from vadr 1.5.1 was used to build models from the 46
+representative sequences that mapped to the 46 FLAN nucleotide
+sequences.
+
+This list of 46 GenBank accessions can be obtained with:
+> cat mapping-flan-to-genbank/mapped.flan.nt.fa | grep ^\> | awk '{ print $2 }'
+
+For all models the '--group <s>' v-build.pl option was used to specify
+the vadr model 'group' value, where '<s>' was defined as
+'flu<c>-seg<d>', where '<c>' is either 'A', 'B', or 'C' for the type,
+and '<d>' is the segment number, both <c> and <d> are taken from the
+FLAN nucleotide sequence name. For example, sequence 'A-seg3' would
+have '--group fluA-seg3'.
+
+For sequences that ended with '_<c><d>', e.g. 'A-seg4_H1', then
+'--subgroup <c><d>' was used as well (e.g. --subgroup H1).
+
+---
+For the following models, there was no CDS annotation, so I blasted
+the nucleotide sequences and found the best match. In each case it was
+a RefSeq that was created 2015 or later. 
+
+FLAN                        model                        refseq match
+seq        model-accn(year) len   refseq-match(year)     len    coords   #cds #gene #mp
+------     ---------------- ----  ------------------     -----  -------- ---- ----- --- 
+C-seg6     GM968015(2008)   1125  NC_006312.2(2015,2018) 1180   26..1150    2     2   0
+C-seg4     GM968017(2008)   1968  NC_006310.2(2015,2018) 2073   22..1989    1     1   0
+C-seg3     GM968018(2008)   2130  NC_006309.2(2015,2018) 2183   22..2151    1     1   0
+C-seg2     GM968019(2008)   2265  NC_006308.2(2015,2018) 2363   18..2282    1     1   0
+A-seg4_H14 M35997(2006)     1749  CY014604.1(2006)       1748   1..1748     1     1   2 single mismatch at position 258
+
+Note that GM968015, GM968017, GM968018, and GM968019 are all patent sequences. 
+
+---
+For the following models of type A segment 4, there was no mat_peptide annotation:
+
+AY684891, DQ376635, and DQ864721
+
+For AY684891, there were 2 mature peptide sequences in the FLAN
+database (Aseg4-matureM2.seg4matureM2 and Aseg4-matureM3.seg4matureM3)
+that were subsequences of the AY684891 protein (AAV91217.1), so I used
+the boundaries of those subsequences to define the mature peptide
+boundaries. 
+
+For DQ376635 and DQ864721 there were no FLAN mature peptides that were
+subsequences of their proteins, so I created an alignment of the 16
+Aseg4 protein sequences in the FLAN database and manually determined
+the boundaries of the mature peptides in those genomes.
+
+---
+Alternative model files in subdirectories:
+
+* The directory 'flan-nt/' has alternative blastx protein libraries
+  that contain only the proteins from the model nucleotide reference
+  sequences (that is one protein per CDS). There is also '.minfo'
+  files in this directory. 
+
+* The directory 'flan/' has blastx protein libraries that match
+  as close as possible to the protein libraries used by FLAN.
+  There is also a 'minfo' file in this directory.
+
+* The directory 'flan-plus/' is similar to 'flan/' but includes some
+  additional proteins that improved VADR performance on the training
+  set. There were additionts to 9 blastx db files as listed below.
+  This set of models is identical to the default set in the top-level
+  directory except it does NOT contain the 17 additional H17/N10,
+  H18/N11 and H19 models listed at the end of this file.
+
+The default models in the top level directory include all FLAN
+blastx proteins, and additional blastx proteins (in flan-plus/) as
+well as 17 additional models for H17/N10, H18/N11 and H19, listed at
+the end of this file.
+
+---
+Additions to blastx db files (.vadr.protein.fa files) of sequences NOT
+in the FLAN databases.
+
+1. CY002010: OP775156.1:20..1429:+/20..1429:+
+   Allows 14 seqs in test set fluA.gb.fr10000.fa that pass FLAN to
+   pass VADR which previously failed with indf3pst fatal alert in
+   neuraminidase (9>8).
+
+2. CY004642: JF715039.1:1..1683:+/34..1716:+
+   Allows 8 seqs in test set fluA.gb.fr10000.fa that pass FLAN to
+   pass VADR which previously failed with indf5pst fatal alert in
+   hemagglutinin (6>5).
+   Added with:    
+   perl $GDIR/vadr/miniscripts/build-add-to-blast-db.pl -f $MDIR/flan/flu-flan.minfo $MDIR/flan-plus CY004642 JF715039 1..1683:+ 34..1716:+ add-JF715039
+
+3. CY002284 KT370023:1..654:+/27..680:+
+   Allows 2 seqs in test set fluA.gb.fr10000.fa that pass FLAN to
+   pass VADR which previously failed with indf3pst fatal alert in
+   hemagglutinin (18>8).
+   Added with:    
+   perl $GDIR/vadr/miniscripts/build-add-to-blast-db.pl -f $MDIR/flan/flu-flan.minfo $MDIR/flan-plus CY002284 KT370023 1..654:+ 27..680:+ add-KT370023
+
+4. CY002284 MT261562:27..710:+/27..710:+
+   Allows 2 seqs in test set fluA.gb.fr10000.fa that pass FLAN to
+   pass VADR which previously failed with indf3pst fatal alert in
+   hemagglutinin (12>8, 9>8).
+   Added with:    
+   perl $GDIR/vadr/miniscripts/build-add-to-blast-db.pl -f $MDIR/flan/flu-flan.minfo $MDIR/flan-plus CY002284 MT261562 27..710:+ 27..710:+ add-MT261562
+
+5. CY002538 KT181405:1..1410:+/21..1433:+
+   Allows 2 seqs in the test set fluA.gb.fr10000.fa that pass FLAN to 
+   pass VADR which previously failed with indf5pst fatal alert in
+   neuraminidase (9>5, 7>5).
+   Added with:
+   perl $GDIR/vadr/miniscripts/build-add-to-blast-db.pl -f $MDIR/flan/flu-flan.minfo $MDIR/flan-plus CY002538 KT181405 1..1410:+ 21..1433:+ add-KT181405
+
+6. CY002284 MT169392:15..686:+/27..698:+
+   Allows 7 seqs in the test set fluA.gb.fr10000.fa that pass FLAN to 
+   pass VADR which previously failed with cdsstopn fatal alert, at
+   position 698. 
+   This change required creating new 
+   flan-plus/flu-flan-plus{.mnf}.minfo files so they could include the
+   27..698:+ coordinate feature for the nonstructural protein 1, as an
+   alternative feature.
+
+7. CY003646 AB586849:8..2284:+/25..2301:+
+   Allows 8 seqs in the test set fluA.fr10000.fa that pass FLAN to
+   pass VADR which previously failed with indf3pst fatal alerts. 
+   Command used to add the protein:
+   perl vadr/miniscripts/build-add-to-blast-db.pl -f $MDIR/flan-plus/flu-flan-plus.mnf.minfo $MDIR/flan-plus CY003646 AB586849 8..2284:+ 25..2301:+ add-AB586849
+
+8. CY003645 LC625435.1:20..2170+/25..2175:+
+   Allows 9 seqs in the test set fluA.fr10000.fa that pass FLAN to 
+   pass VADR which previously failed with indf3pst fatal alerts.
+   perl vadr/miniscripts/build-add-to-blast-db.pl -f $MDIR/flan-plus/flu-flan-plus.mnf.minfo $MDIR/flan-plus CY003645 LC625435 20..2710:+ 25..2175:+ add-LC625435
+
+---
+Additional models not in FLAN:
+
+* 8 H17/N10 models based on PMID 22371588
+  CY103881 group:"fluA-seg1"
+  CY103882 group:"fluA-seg2"
+  CY103883 group:"fluA-seg3"
+  CY103884 group:"fluA-seg4"
+  CY103885 group:"fluA-seg5"
+  CY103886 group:"fluA-seg6"
+  CY103887 group:"fluA-seg7"
+  CY103888 group:"fluA-seg8"
+
+* 8 H18/N11 models based on PMID 24130481
+  CY125942 group:"fluA-seg1"
+  CY125943 group:"fluA-seg2"
+  CY125944 group:"fluA-seg3"
+  CY125945 group:"fluA-seg4"
+  CY125946 group:"fluA-seg5"
+  CY125947 group:"fluA-seg6"
+  CY125948 group:"fluA-seg7"
+  CY125949 group:"fluA-seg8"
+
+ * 1 new H19 model based on PMID 37335000
+ ON637239 group:"fluA-seg4"
+ For this model, the stop codon 'TAA' was appended to the nucleotide
+ record for ON637239.
+
+ * The 6 fluC models from FLAN that were not based on RefSeqs were
+   replaced with their corresponding RefSeqs (the original FLAN
+   sequences were subsequences of the RefSeqs):
+   GN364866 replaced with NC_006307
+   GN968019 replaced with NC_006308
+   GN968018 replaced with NC_006309
+   GN968017 replaced with NC_006310
+   GN968015 replaced with NC_006312
+
+---
+Explanation of selected files in this dir:
+
+CY006079.2.stk : training alignment used to build the CY006079
+                (fluA-seg5) model in flu.cm. Includes 2 sequences
+                CY006079.1 and CY006079.1-1542-ins-a, which is
+                identical to CY006079.1 with an insertion of a single
+                'a' after position 1542. Building a model from this
+                two sequence alignment instead of only CY006079
+                results in a model less likely to get spurious alerts
+                related to the stop codon of the NP CDS. 
+
+CY005970.2.stk : training alignment used to build the CY005970
+                (fluA-seg4) model in flu.cm. Includes 2 sequences
+                CY005970.1 and CY005970.1-g1719a-1721del, which is
+                identical to CY005970.1 with a substitution at
+                position 1719 ('a' for 'g') and a deletion at position
+                1721. Building a model from this two sequence
+                alignment instead of only CY005970 results in a model
+                less likely to give an alert for an invalid stop codon
+                (e.g. LC339539.1).
+
+---
+Notebook directories relevant to creation of these models:
+
+23_0207_vadr_flu_models
+23_1212_vadr_flu_new_serotype_models
+
+---
+
+Contact eric.nawrocki@nih.gov for help.

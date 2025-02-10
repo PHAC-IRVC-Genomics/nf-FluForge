@@ -1,0 +1,29 @@
+# STOCKHOLM 1.0
+
+AY191501.1/54..1454:+                               MLPSTIQTLTLFLTSGGVLLSLYVSALLSYLLYSDILLKFSPTEITAPTMPLDCANASNVQAVNRSATKGVTLLLPEPEWTYPRLSCPGSTFQKALLISPHRFGETKGNSAPLIIREPFIACGPKECKHFALTHYAAQPGGYYNGTREDRNKLRHLISVKLGKIPTVENSIFHMAAWSGSACHDGREWTYIGVDGPDSNA
+#=GR AY191501.1/54..1454:+                       PP 9*******************************************************************************************************************************************************************************************************
+Bseg6-prot2A.seg6prot2A_53829771/54..1454:+         MLPSTIQTLTLFLTSGGVLLSLYVSASLSYLLYSDILLKFSPTEITAPTMPLDCANASNVQAVNRSATKGVTLLLPEPEWTYPRLSCPGSTFQKALLISPHRFGETKGNSAPLIIREPFIACGPKECKHFALTHYAAQPGGYYNGTREDRNKLRHLISVKLGKIPTVENSIFHMAAWSGSACHDGREWTYIGVDGPDSNA
+#=GR Bseg6-prot2A.seg6prot2A_53829771/54..1454:+ PP 9*******************************************************************************************************************************************************************************************************
+Bseg6-prot2B.seg6prot2B/54..1454:+                  MLPSTIQTLTLFLTSGGVLLSLYVSASLSYLLYSDILLKFSPTEITAPTMPLDCANASNVQAVNRSATKGVTLLLPEPEWTYPRLSCPGSTFQKALLISPHRFGETKGNSAPLIIREPFIACGPKECKHFALTHYAAQPGGYYNGTREDRNKLRHLISVKLGKIPTVENSIFHMAAWSGSACHDGREWTYIGVDGPDSNA
+#=GR Bseg6-prot2B.seg6prot2B/54..1454:+          PP 9*******************************************************************************************************************************************************************************************************
+#=GC PP_cons                                        9*******************************************************************************************************************************************************************************************************
+#=GC RF                                             xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+AY191501.1/54..1454:+                               LLKIKYGEAYTDTYHSYANNILRTQESACNCIGGNCYLMITDGSASGISECRFLKIREGRIIKEIFPTGRVEHTEECTCGFASNKTIECACRDNSYTAKRPFVKLNVETDTAEIRLMCTETYLDTPRPDDGSITGPCESNGDKGSGGIKGGFVHQRMASKIGRWYSRTMSKTKRMGMGLYVKYDGDPWTDSDALALSGVM
+#=GR AY191501.1/54..1454:+                       PP ********************************************************************************************************************************************************************************************************
+Bseg6-prot2A.seg6prot2A_53829771/54..1454:+         LLKIKYGEAYTDTYHSYANNILRTQESACNCIGGDCYLMITDGSASGISECRFLKIREGRIIKEIFPTGRVEHTEECTCGFASNKTIECACRDNSYTAKRPFVKLNVETDTAEIRLMCTETYLDTPRPDDGSITGPCESNGDKGSGGIKGGFVHQRMASKIGRWYSRTMSKTKRMGMGLYVKYDGDPWTDSDALALSGVM
+#=GR Bseg6-prot2A.seg6prot2A_53829771/54..1454:+ PP ********************************************************************************************************************************************************************************************************
+Bseg6-prot2B.seg6prot2B/54..1454:+                  LLKIKYGEAYTDTYHSYANNILRTQESACNCIGGDCYLMITDGSASGISECRFLKIREGRIIKEIFPTGRVEHTEECTCGFASNKTIECACRDNSYTAKRPFVKLNVETDTAEIRLMCTETYLDTPRPDDGSITGPCESNGDKGSGGIKGGFVHQRMASKIGRWYSRTMSKTKRMGMGLYVKYDGDPWTDSDALALSGVM
+#=GR Bseg6-prot2B.seg6prot2B/54..1454:+          PP ********************************************************************************************************************************************************************************************************
+#=GC PP_cons                                        ********************************************************************************************************************************************************************************************************
+#=GC RF                                             xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+AY191501.1/54..1454:+                               VSMEEPGWYSFGFEIKDKKCDVPCIGIEMVHDGGKKTWHSAATAIYCLMGSGQLLWDTVTGVDMVL
+#=GR AY191501.1/54..1454:+                       PP ****************************************************************97
+Bseg6-prot2A.seg6prot2A_53829771/54..1454:+         VSMEEPGWYSFGFEIKDKKCDVPCIGIEMVHDGGKETWHSAATAIYCLMGSGQLLWDTVTGVDMAL
+#=GR Bseg6-prot2A.seg6prot2A_53829771/54..1454:+ PP ****************************************************************86
+Bseg6-prot2B.seg6prot2B/54..1454:+                  VSMEEPGWYSFGFEIKDKKCDVPCIGIEMVHDGGKETWHSAATAIYCLMGSGQLLWDTVTGVDMAL
+#=GR Bseg6-prot2B.seg6prot2B/54..1454:+          PP ****************************************************************86
+#=GC PP_cons                                        ****************************************************************86
+#=GC RF                                             xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//

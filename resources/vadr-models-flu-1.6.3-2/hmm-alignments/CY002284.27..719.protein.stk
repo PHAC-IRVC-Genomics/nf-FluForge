@@ -1,0 +1,20 @@
+# STOCKHOLM 1.0
+
+CY002284.1/27..719:+                      MDSNTVSSFQVDCFLWHIRKQVVDQELSDAPFLDRLRRDQRSLRGRGNTLGLDIKAATHVGKQIVEKILKEESDEALKMTMVSTPASRYITDMTIEELSRNWFMLMPKQKVEGPLCIRMDQAIMEKNIMLKANFSVIFDRLETIVLLRAFTEEGAIVGEISPLPSFPGHTIEDVKNAIGVLIGGLEWNDNTVRVSKNLQR
+#=GR CY002284.1/27..719:+              PP 9*******************************************************************************************************************************************************************************************************
+Aseg8-prot1B.seg8prot1B/27..719:+         MDSNTVSSFQVDCFLWHIRKQVVDQELSDAPFLDRLRRDQRSLRGRGNTLGLDIKAATHVGKQIVEKILKGESDEALKMTMASTPASRYITDMTIEELSRNWFMLMPKQKVEGPLCIRMDQAIMEKNIMLKANFSVIFDRLETIVLLRAFTEEGAIVGEISPLPSFPGHTIEDVKNAIGVLIGGLEWNDNTVRVSKNLQR
+#=GR Aseg8-prot1B.seg8prot1B/27..719:+ PP 9*******************************************************************************************************************************************************************************************************
+Aseg8-prot1J.seg8prot1I/27..719:+         MDSNTVSSFQVDCFLWHVRKRFADQELGDAPFLDRLRRDQKSLRGRGSTLGLDIETATRAGKQIVERILEEESDEALKMTIASVPASRYLTDMTLDEMSRDWFMLMPKQKVAGSLCIRMDQAIMDKNIILKANFSVIFERLETLILLRAFTEEGAVVGEISPLPSLPGHTNEDVKNAIGVLIGGLEWNDNTVRVSETLQR
+#=GR Aseg8-prot1J.seg8prot1I/27..719:+ PP 9*******************************************************************************************************************************************************************************************************
+#=GC PP_cons                              9*******************************************************************************************************************************************************************************************************
+#=GC RF                                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+CY002284.1/27..719:+                      FAWRSSNENGGPPLTPKQKRKMARTARSKV
+#=GR CY002284.1/27..719:+              PP *****************************8
+Aseg8-prot1B.seg8prot1B/27..719:+         FAWRSSNENGGPPLTPKQKRKMARTARSKV
+#=GR Aseg8-prot1B.seg8prot1B/27..719:+ PP *****************************8
+Aseg8-prot1J.seg8prot1I/27..719:+         FAWRSSHENGRPSFPPKQKRKMARTIESEV
+#=GR Aseg8-prot1J.seg8prot1I/27..719:+ PP *************************99976
+#=GC PP_cons                              ***************************997
+#=GC RF                                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//
