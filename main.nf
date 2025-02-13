@@ -3,6 +3,9 @@ nextflow.enable.dsl=2
 
 include {VADR} from './modules/vadr.nf'
 include {TABLE2ASN} from './modules/table2asn.nf'
+include {SEGMENT_CLASSIFY} from './modules/segment_classifier.nf'
+include {BUILD_PSEUDOGENOME} from './modules/pseudogenome.nf'
+include {BUILD_TREE} from './modules/tree.nf'
 
 process TestConfig {
     tag 'Test Config'
@@ -29,6 +32,15 @@ workflow {
 
     //Table2asn Run
     TABLE2ASN(VADR.out.vadr_output_directory)
+
+    //Segment Classifier Run
+    SEGMENT_CLASSIFY(TABLE2ASN.out.table2asn_output_directory)
+
+    //Building Pseudogenomes
+    BUILD_PSEUDOGENOME(SEGMENT_CLASSIFY.out.segment_classifier_output)
+
+    //Building Tree
+    BUILD_TREE(BUILD_PSEUDOGENOME.out.psuedogenomes_output)
 
     // Test configuration
     TestConfig()
