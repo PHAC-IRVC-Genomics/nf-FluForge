@@ -1,4 +1,9 @@
-# nf-FluForge
+# IRVC/nf-FluForge
+
+[![Nextflow](https://img.shields.io/badge/Nextflow->=22.10.1-brightgreen.svg?style=flat&logo=nextflow)](https://www.nextflow.io/)
+[![Docker Profile](https://img.shields.io/badge/Profile-Docker-blue.svg?logo=docker)](#)
+[![Singularity Profile](https://img.shields.io/badge/Profile-Singularity-blueviolet.svg?logo=singularity)](#)
+[![Conda Profile](https://img.shields.io/badge/Profile-Conda-green.svg?logo=conda)](#)
 
 **nf-FluForge** is a Nextflow-based pipeline for comprehensive influenza virus genomics analysis. The pipeline integrates multiple modules to:
 
