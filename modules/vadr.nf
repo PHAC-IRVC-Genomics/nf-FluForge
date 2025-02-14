@@ -19,6 +19,7 @@ process VADR {
 
   script:
   """
-  vadr.py --consensus_dir ${consensus_dir} --vadr_model_dir ${params.vadr_model_dir} --outdir VADR_output
+  tar -xzf ${params.vadr_model_dir}
+  vadr.py --consensus_dir ${consensus_dir} --vadr_model_dir vadr-models-flu-1.6.3-2 --outdir VADR_output
   """
 }
