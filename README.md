@@ -11,7 +11,7 @@
 - **Process** VADR outputs with Table2asn to standardize annotations.
 - **Extract and classify** influenza segments (e.g., PB2, PB1, PA, HA, NP, NA, M, NS) with a robust segment classifier.
 - **Build pseudogenomes** by concatenating the segmented coding sequences in the correct order.
-- **Construct phylogenetic trees** from the pseudogenomes using MAFFT and FastTree.
+- **Align genomes and Construct phylogenetic trees** from the pseudogenomes using MAFFT and FastTree.
 
 This modular design ensures reproducible and scalable analysis of influenza assemblies.
 
