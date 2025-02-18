@@ -1,4 +1,9 @@
-# nf-FluForge
+# IRVC/nf-FluForge
+
+[![Nextflow](https://img.shields.io/badge/Nextflow->=22.10.1-brightgreen.svg?style=flat&logo=nextflow)](https://www.nextflow.io/)
+[![Docker Profile](https://img.shields.io/badge/Profile-Docker-blue.svg?logo=docker)](#)
+[![Singularity Profile](https://img.shields.io/badge/Profile-Singularity-blueviolet.svg?logo=singularity)](#)
+[![Conda Profile](https://img.shields.io/badge/Profile-Conda-green.svg?logo=conda)](#)
 
 **nf-FluForge** is a Nextflow-based pipeline for comprehensive influenza virus genomics analysis. The pipeline integrates multiple modules to:
 
@@ -6,7 +11,7 @@
 - **Process** VADR outputs with Table2asn to standardize annotations.
 - **Extract and classify** influenza segments (e.g., PB2, PB1, PA, HA, NP, NA, M, NS) with a robust segment classifier.
 - **Build pseudogenomes** by concatenating the segmented coding sequences in the correct order.
-- **Construct phylogenetic trees** from the pseudogenomes using MAFFT and FastTree.
+- **Align genomes and Construct phylogenetic trees** from the pseudogenomes using MAFFT and FastTree.
 
 This modular design ensures reproducible and scalable analysis of influenza assemblies.
 
