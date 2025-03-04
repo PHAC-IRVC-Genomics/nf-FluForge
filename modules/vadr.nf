@@ -10,7 +10,7 @@ process VADR {
   }
 
   input:
-  path consensus_dir
+  path sanitized_consensus
 
   output:
   path ('VADR_output'), emit: vadr_output_directory
@@ -20,6 +20,6 @@ process VADR {
   script:
   """
   tar -xzf ${params.vadr_model_dir}
-  vadr.py --consensus_dir ${consensus_dir} --vadr_model_dir vadr-models-flu-1.6.3-2 --outdir VADR_output
+  vadr.py --consensus_dir ${sanitized_consensus} --vadr_model_dir vadr-models-flu-1.6.3-2 --outdir VADR_output
   """
 }

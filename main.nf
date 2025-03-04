@@ -1,6 +1,7 @@
 #!/usr/bin/env nextflow
 nextflow.enable.dsl=2
 
+include {SANITIZE} from './modules/sanitize.nf'
 include {VADR} from './modules/vadr.nf'
 include {TABLE2ASN} from './modules/table2asn.nf'
 include {SEGMENT_CLASSIFY} from './modules/segment_classifier.nf'
@@ -27,8 +28,11 @@ workflow {
     // Convert parameters to channels
     ch_versions = Channel.empty()
 
+    // Run the sanitize process on the consensus directory
+    ch_sanitized = SANITIZE(Channel.fromPath(params.consensus_dir, checkIfExists: true))
+
     // VADR Run
-    ch_input = VADR(Channel.fromPath(params.consensus_dir, checkIfExists: true))
+    VADR(SANITIZE.out.sanitized_consensus)
 
     //Table2asn Run
     TABLE2ASN(VADR.out.vadr_output_directory)

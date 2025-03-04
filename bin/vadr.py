@@ -65,6 +65,7 @@ def main():
             f"--mdir {args.vadr_model_dir} "
             f"--mkey flu "  # this key is hard-coded; modify if needed
             f"-f {fasta_path} "
+            f"--noseqnamemax "
             f"{sample_outdir}"
         )
         run(vadr_cmd)
