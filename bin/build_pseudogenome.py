@@ -240,5 +240,18 @@ def main():
 
     print(f"[DONE] Pseudogenomes saved in: {pseudo_dir}")
 
+    # Create a CSV file with the lengths of all pseudogenomes produced.
+    lengths_csv = output_dir / "pseudogenome_lengths.csv"
+    with open(lengths_csv, "w") as out_csv:
+        out_csv.write("Sample,CDS_length,PEP_length\n")
+        # Build a dictionary for peptide lengths if available
+        pep_dict = { rec.id: len(rec.seq) for rec in all_pseudo_pep } if all_pseudo_pep else {}
+        for rec in all_pseudo_cds:
+            sample = rec.id
+            cds_len = len(rec.seq)
+            pep_len = pep_dict.get(sample, "NA")
+            out_csv.write(f"{sample},{cds_len},{pep_len}\n")
+    print(f"[INFO] Pseudogenome lengths saved in: {lengths_csv}")
+
 if __name__ == "__main__":
     main()
